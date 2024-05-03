@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import "./App.css"
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
             </div>
             <div>
               <button>Completar</button>
-              <button>Deletar</button>
+              <button>X</button>
             </div>
           </div>
         ))}
